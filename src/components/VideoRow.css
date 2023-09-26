@@ -1,0 +1,46 @@
+.videoRow{
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 5px;
+    background-image: url("https://i.ytimg.com/an_webp/60iplLAVmuA/mqdefault_6s.webp?du=3000&sqp=CJC87YYG&rs=AOn4CLDLBxBx47mtnSuWLU2BsohNh-whZg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoRow__thumbnail {
+    height: 140px;
+    width: 250px; 
+    margin-left: 50px;
+}
+
+.videoRow__info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+
+.videoRow__text {
+    margin-left: 15px;
+}
+
+.videoRow__text > h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videoRow__text > p {
+    font-size: 14px;
+    color: gray;
+}
+
+.videoRow__avatar {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.channelName {
+    font-weight: bold;
+}
